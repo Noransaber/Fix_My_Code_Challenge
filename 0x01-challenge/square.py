@@ -2,9 +2,9 @@
 
 # Editting 1: Make the class Square not square
 class Square():
-    # Editing 2: Adding Doc 
+    # Editing 2: Adding Doc
     """ start the class"""
-    
+
     # Edit 3: We don't need kwargs, we just will use width and height
     def __init__(self, width, height):
     # Edit 4: Adding doc
@@ -19,7 +19,7 @@ class Square():
     def PermiterOfMySquare(self):
         # Edit 5: adding doc
         """ permmiter of the square"""
-        # Edit 6: Exchange the permiter of rectangle by the square 
+        # Edit 6: Exchange the permiter of rectangle by the square
         return 4 * self.width
 
     def __str__(self):
